@@ -1,0 +1,83 @@
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+
+
+  .blogs-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .blog {
+    
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .blog-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .blog-description {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
